@@ -1,0 +1,7 @@
+{
+  "access-key-id": "<your-access-key-id>",
+  "access-key-secret": "<your-access-key-secret>",
+  "your-region-id": "<your-region-id>",
+  "ddns-domain": "<your-ddns-domain>",
+  "ddns-sub-domain": "<your-ddns-sub-domain>"
+}
