@@ -24,4 +24,4 @@ pip install aliyun-python-sdk-alidns
 
 # ./DDNS.py
 ```
-##### 4.Cron定时执行
+##### 5.Cron定时执行
