@@ -13,7 +13,7 @@ from aliyunsdkalidns.request.v20150109 import AddDomainRecordRequest
 
 # 获取公网ip
 def get_public_ip():
-    res = urllib.request.urlopen('https://jsonip.com/')
+    res = urllib.request.urlopen('https://ipv4.jsonip.com/')
     content = res.read()
     print(str(content, 'utf-8'))
     content = json.loads(str(content, 'utf-8'))
