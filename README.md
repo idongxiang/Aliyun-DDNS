@@ -2,11 +2,11 @@
 
 ##### 1.安装阿里云SDK核心库
 ```
-pip install aliyun-python-sdk-core
+pip3 install aliyun-python-sdk-core
 ```
 ##### 2.安装阿里云SDK alidns库
 ```
-pip install aliyun-python-sdk-alidns
+pip3 install aliyun-python-sdk-alidns
 ```
 ##### 3.配置阿里云访问凭据和域名
 ```
