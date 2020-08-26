@@ -18,10 +18,15 @@ pip install aliyun-python-sdk-alidns
   "ddns-sub-domain": "<your-ddns-sub-domain>"
 }
 ```
-##### 4.执行
+##### 4.测试执行
 ```
 # chmod +x DDNS.py
 
 # ./DDNS.py
 ```
-##### 5.Cron定时执行
+##### 5.Crontab定时执行
+```
+crontab -e
+
+*/2 * * * * python3 /path/to/DDNS.py >> /path/to/DDNS.log 2>&1 &
+```
