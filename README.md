@@ -28,5 +28,5 @@ pip3 install aliyun-python-sdk-alidns
 ```
 crontab -e
 
-*/2 * * * * python3 /path/to/DDNS.py >> /path/to/DDNS.log 2>&1 &
+*/2 * * * * python3 /home/pi/DDNS/DDNS.py >> /home/pi/DDNS/DDNS.log 2>&1 &
 ```
